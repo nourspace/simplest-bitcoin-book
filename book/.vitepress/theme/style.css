@@ -137,7 +137,9 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-
+/**
+Custom tests
+ */
 .vp-doc ul {
     list-style-type: none; /* Removes default bullets */
     padding-left: 0; /* Adjust as necessary */
@@ -160,4 +162,10 @@
     width: 20px; /* Same as background-size */
     height: 20px; /* Same as background-size */
     background-repeat: no-repeat;
+}
+
+.vp-doc h2 {
+    /* Horizontal shadow, vertical shadow, blur radius, color */
+    /* You can adjust the blur radius and number of shadows for different effects */
+    text-shadow: 0 0 5px gold;
 }

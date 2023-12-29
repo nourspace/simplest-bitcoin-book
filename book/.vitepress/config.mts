@@ -33,5 +33,16 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/b-n-space' },
       { icon: 'twitter', link: 'https://twitter.com/SimplestBTCBook' }
     ]
+  },
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en'
+    },
+    ar: {
+      label: 'عربي',
+      lang: 'ar', // optional, will be added  as `lang` attribute on `html` tag
+      dir: 'rtl'
+    }
   }
 })
