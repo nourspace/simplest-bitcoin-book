@@ -1,3 +1,7 @@
+# VitePress
+book/.vitepress/dist
+book/.vitepress/cache
+
 # Logs
 logs
 *.log
